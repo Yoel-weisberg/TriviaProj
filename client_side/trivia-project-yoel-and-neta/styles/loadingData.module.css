@@ -1,0 +1,13 @@
+.containerStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.reactloading {
+    margin-bottom: -50px; /* Moves the loading bar and text up by 50px */
+}

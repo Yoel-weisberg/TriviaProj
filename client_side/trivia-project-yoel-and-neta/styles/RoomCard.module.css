@@ -1,0 +1,44 @@
+.card {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.activeIcon, .inactiveIcon {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoItem {
+    display: flex;
+    align-items: center;
+}
+
+.infoItem svg {
+    margin-right: 5px;
+}

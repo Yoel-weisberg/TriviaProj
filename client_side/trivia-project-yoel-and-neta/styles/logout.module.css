@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.messageBox {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: white;
+}
+
+.imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

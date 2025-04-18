@@ -1,0 +1,56 @@
+from enum import Enum
+
+SERVER_DATA = ('127.0.0.1', 8826)
+START_MESSEGE = "HELLO"
+NUM_OF_BYTES = 1024
+
+ # request code
+LOGIN = 100
+SIGN_UP = 101
+ERROR_REQ = 102
+LOGOUT_REQ = 103
+GET_ROOM_REQ = 104
+GET_PLAYERS_REQ = 105
+JOIN_ROOM_REQ = 106
+CREATE_ROOM_REQ = 107
+GET_HIGH_SCORE_REQ = 108
+GET_PERSONAL_STATS_REQ = 109
+
+# responses code
+class ResponseCode(Enum):
+    CODE_LOGIN_RESP = 200
+    CODE_SIGN_UP_RESP = 201
+    CODE_ERROR_RESPONSE = 202
+    LOGOUT_RESP = 203
+    GET_ROOM_RESP = 204
+    GET_PLAYERS_RESP = 205
+    JOIN_ROOM_RESP = 206
+    CREATE_ROOM_RESP = 207
+    GET_HIGH_SCORE_RESP = 208
+    GET_PERSONAL_STATS_RESP = 209
+
+
+
+SIZE_OF_LENGTH = 4
+FAILED_STATUS = 0
+WORK_STATUS = 1
+
+EMAIL: str = "email"
+PASSWORD: str = "password"
+USER_NAME: str = "username"
+ADDRESS: str = "address"
+PHONE_NUMBER: str = "phoneNumber"
+BIRTH_DATE: str = "birthDate"
+ROOM_ID = "roomId"
+
+ROOM_NAME = "roomName"
+MAX_USERS = "maxUsers"
+QUESTION_COUNT = "questionCount"
+ANSOWER_TIMEOUT = "answerTimeout"
+
+
+
+
+
+
+

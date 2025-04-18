@@ -1,0 +1,22 @@
+
+.navbarItem {
+    display: inline-block; /* To make the link behave like a button */
+    padding: 10px 20px; /* Button padding */
+    margin: 5px; /* Space between buttons */
+    border: 2px solid #333; /* Solid border, dark color */
+    border-radius: 10px;    /* Rounded corners with a radius of 10px */
+    background-image: linear-gradient(45deg, #6e45e2, #88d3ce); /* Initial gradient background */
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+    transition: background 0.3s; /* Smooth transition for background change */
+    text-align: center;
+}
+
+  .navbarItem h1 {
+    margin: 0; /* Removes default margin from h1 */
+  }
+  
+  .navbarItem:hover {
+    background-image: linear-gradient(45deg, #88d3ce, #6e45e2); /* Changes gradient on click */
+    cursor: pointer;
+  }
